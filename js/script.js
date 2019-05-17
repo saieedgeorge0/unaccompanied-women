@@ -189,7 +189,7 @@ $(document).ready(function(){
         $('#year').html("<strong>Major:</strong> Political Science & Creative Writing");
         $('#fav-song').html("<strong>Favorite UW Song:</strong> M&M's");
         $('#weapon').html("<strong>Weapon of Choice:</strong> Guilt-inducing Ugly Crying");
-        $('#her-bio').html("Renee is a Creative Writing and PoliSci major as well as President of Unaccompanied Women. Outside of UW, Renee can be found extolling the virtues of speculative fiction, napping, or playing the Sims.");
+        $('#her-bio').html("Outside of UW, Renee can be found extolling the virtues of speculative fiction, napping, or playing the Sims.");
         $('#member-information').fadeIn(500);
     });
     
