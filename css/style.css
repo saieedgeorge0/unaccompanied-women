@@ -8,6 +8,15 @@ button:focus, input:focus, textarea:focus {
     outline: 0;
 }
 
+.link {
+    color: white;
+    font-weight: 600;
+}
+
+.link:hover {
+    color: white;
+}
+
 #triangle-1 {
     width: 0;
     height: 0;
@@ -215,6 +224,11 @@ button:focus, input:focus, textarea:focus {
     
 }
 
+#de-repertoire {
+    height: 100%;
+    overflow-x: scroll;
+}
+
 #contact {
     width: 100px;
     opacity: 0;
@@ -285,8 +299,8 @@ button:focus, input:focus, textarea:focus {
 }
 
 .person {
-    width: 75px;
-    height: 75px;
+    width: 63px;
+    height: 63px;
     margin: 5px;
     border-radius: 50%;
 }
@@ -308,57 +322,8 @@ button:focus, input:focus, textarea:focus {
     background-repeat: none;
 }
 
-.aliyah {
-    background: url('../img/aliyah.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: none;
-}
-
-.kate {
-    background: url('../img/kate.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: none;
-}
-
-.laura {
-    background: url('../img/laura.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: none;
-}
-
-.sylvia {
-    background: url('../img/sylvia.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: none;
-}
-
-.mariam {
-    background: url('../img/mariam.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: none;
-}
-
-.dj {
-    background: url('../img/dj.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: none;
-}
-
-.rebecca {
-    background: url('../img/rebecca.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: none;
-}
-
-.renee {
-    background: url('../img/renee.jpg');
+.kim {
+    background: url('../img/kim.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: none;
@@ -371,8 +336,78 @@ button:focus, input:focus, textarea:focus {
     background-repeat: none;
 }
 
-.samuela {
-    background: url('../img/samuela.jpg');
+.gio {
+    background: url('../img/gio.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+}
+
+.renee {
+    background: url('../img/renee.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+}
+
+.gaby {
+    background: url('../img/gaby.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+}
+
+.julianne {
+    background: url('../img/julianne.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+}
+
+.faith {
+    background: url('../img/faith.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+}
+
+.trinity {
+    background: url('../img/trinity.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+}
+
+.ri {
+    background: url('../img/ri.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+}
+
+.tiffany {
+    background: url('../img/tiffany.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+}
+
+.rebecca {
+    background: url('../img/rebecca.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+}
+
+.dj {
+    background: url('../img/dj.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+}
+
+.lily {
+    background: url('../img/lily.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: none;
@@ -657,8 +692,8 @@ strong {
         transform: translateY(12vh) translateX(10px);
     }
     .person {
-        height: 65px;
-        width: 65px;
+        height: 63px;
+        width: 63px;
     }
 }
 
@@ -675,6 +710,11 @@ strong {
 }
 
 @media (max-width: 796px) {
+    #de-repertoire {
+        height: auto;
+        overflow-x: visible;
+    }
+
     .mobile-menu {
         display: block;
     }
